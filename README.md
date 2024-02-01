@@ -222,19 +222,19 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 
 <h2>Challenges in Digital Forensics</h2>
 <ul>
-  <li>Data Volatility</li>
+  <li><ins>Data Volatility</ins></li>
   <ul>
     <li>Some data, especially in RAM, is transient and can be lost once the power is off.</li>
   </ul>
-  <li>Encryption</li>
+  <li><ins>Encryption</ins></li>
    <ul>
     <li>Encrypted data can pose a significant challenge unless decryption keys are available.</li>
   </ul>
-  <li>Remote Storage</li>
+  <li><ins>Remote Storage</ins></li>
    <ul>
     <li>With the rise of cloud storage, not all data is stored locally, making retrieval more complex.</li>
   </ul>
-  <li>Data Tampering</li>
+  <li><ins>Data Tampering</ins></li>
    <ul>
     <li>Malicious actors might manipulate data to mislead investigations.</li>
   </ul>
