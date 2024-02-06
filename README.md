@@ -193,48 +193,141 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 <h2>Tools and Techniques in Digital Forensics</h2>
 
 <ul>
-<li><ins>Forensic Imaging</ins></li>
+<li><h3><ins>Forensic Imaging</ins></h3></li>
   <ul>
     <li> Creating a bit-by-bit duplicate of a device's storage. Tools like DD or Encase help in this process.</li>
   </ul>
  
 
-<li><ins>Data Carving</ins></li>
+<li><h3><ins>Data Carving</ins></h3></li>
  <ul>
     <li>Using tools like Scalpel or Foremost, professionals can extract data chunks even from deleted files or unallocated disk space.</li>
   </ul>
 
 
-<li><ins>Forensic Toolkits</ins></li>
+<li><h3><ins>Forensic Toolkits</ins></h3></li>
  <ul>
     <li>FTK and Wireshark are among the many applications that help forensics experts analyze data, network traffic, and more.</li>
   </ul>
 </ul>
 
 
+<h2> Chain of Custody and Legal Implications</h2>
+
+<h4><ins>Description:</ins></h4> The chain of custody refers to the chronological documentation and physical paper trail, accounting for the seizure, custody, control, transfer, analysis, and disposition of evidence. It establishes that there hasn’t been any alteration, tampering, or unauthorized access to the evidence after it was collected.
 
 
 
+<h4><ins>Importance:</ins></h4> It ensures the integrity of evidence and validates that the evidence presented in court is the same as what was originally collected.<br>
+<br>
+
+<ins>Components:</ins>  Each link in the chain should document:
+<ul>
+<li>The date and time of collection, transfer, or access.</li>
+<li>The person making the entry.</li>
+<li>The purpose or reason for the entry (e.g., analysis, transfer).</li>
+<li>The current location or disposition of the evidence.</li>
+</ul>
+      
+
+<ul>
+<li><h3><ins>Legal Implications of Breaching the Chain</ins></h3></li>
+<ul>
+  <li>
+    
+  **Description**: Any break in the chain of custody can lead to disputes over the integrity or authenticity of the evidence. </li>
+  <li>
+    
+  **Outcomes**: A broken chain can result in evidence being deemed inadmissible in court, potentially collapsing a prosecution or defense. Even if admitted, its credibility might be questioned or dismissed. </li>
+  <li>
+    
+  **Examples**: Evidence handled without gloves, unlogged access to evidence, loss of evidence. </li>
+</ul>
+
+
+<li><h3><ins>Digital Considerations</ins></h3></li>
+<ul>
+  <li>
+    
+  **Description**: Digital evidence has its unique challenges compared to physical evidence. With digital data, alterations can be less conspicuous.</li>
+  <li>
+    
+  **Duplications**: When digital evidence is duplicated, ensuring that the duplicate is an exact copy is essential. </li>
+  <li>
+    
+  **Timestamps**: Accessing files without the proper tools can alter metadata, like "last accessed" timestamps. </li>
+
+  <li>
+  
+  **Decryption**: Trying to decrypt encrypted files might modify them or result in data loss.
+
+  </li>
+</ul>
+
+
+<li><h3><ins>Legal Frameworks and Standards</ins></h3></li>
+<ul>
+  <li>
+    
+  **Description**: Various laws and regulations govern how digital evidence should be collected, stored, and presented. </li>
+  <li>
+    
+  **International Standards**:  Different countries have varying standards and agreements on digital evidence admissibility. </li>
+  <li>
+    
+  **Examples**: Federal Rules of Evidence: In the U.S., these rules determine the admissibility of evidence in federal court. </li>
+  <li>
+
+  **Importance**: Adhering to legal frameworks ensures uniformity, consistency, and fairness in the judicial process.
+
+  </li>
+</ul>
 
 
 
+<li><h3><ins>Real-world Consequences</ins></h3></li>
+<ul>
+  <li>
+    
+  **Description**: The chain of custody not only affects the court proceedings but has wider implications.</li>
+  <li>
+    
+  **Scenarios**: 
+  <ul>
+    <li>
+      
+   **Wrongful Convictions**: Faulty evidence handling can lead to the innocent being convicted.
+</li>
+     <li>
+       
+  **Criminals Walking Free**: Perpetrators can avoid consequences if critical evidence is rendered inadmissible.</li>
+     <li>
+     **Reputational Impact**: Law enforcement agencies might face public scrutiny and loss of trust due to mishandlings.
+</li>
+  </ul>
+  
+  
+  </li>
+ 
+</ul>
+</ul>
 
 
 <h2>Challenges in Digital Forensics</h2>
 <ul>
-  <li><ins>Data Volatility</ins></li>
+  <li><h3><ins>Data Volatility</ins></h3></li>
   <ul>
     <li>Some data, especially in RAM, is transient and can be lost once the power is off.</li>
   </ul>
-  <li><ins>Encryption</ins></li>
+  <li><h3><ins>Encryption</ins></h3></li>
    <ul>
     <li>Encrypted data can pose a significant challenge unless decryption keys are available.</li>
   </ul>
-  <li><ins>Remote Storage</ins></li>
+  <li><h3><ins>Remote Storage</ins></h3></li>
    <ul>
     <li>With the rise of cloud storage, not all data is stored locally, making retrieval more complex.</li>
   </ul>
-  <li><ins>Data Tampering</ins></li>
+  <li><h3><ins>Data Tampering</ins></h3></li>
    <ul>
     <li>Malicious actors might manipulate data to mislead investigations.</li>
   </ul>
@@ -255,26 +348,17 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 </ul>
 
 
-
-
-
-
-
-
-
-
-
-
 <h2>Conclusion</h2>
 Digital forensics is an indispensable tool in the modern digital landscape, marrying the technical with the legal, to ensure justice, protect assets, and deter cyber malfeasance. As technology evolves, so will the field of digital forensics, emphasizing the need for continuous learning and adaptation.
 
 <h2> Presentation</h2>
+
+<a href="https://docs.google.com/presentation/d/1H6JTY9SS4R4sr5MKxeTISCq-WR45d7CR/edit?usp=sharing&ouid=111353211454597807430&rtpof=true&sd=true"> Incident Response Technologies </a>
 
 
 <h2> Hands-On Labs</h2>
 
 <h2> Additional Resources</h2>
 
-<a href="https://youtu.be/9DCwyuH29SI">The Most Sophisticated Malware Ever Made (That We Know Of)Darknet Diaries Ep. 29: Stuxnet</a> - From DarkNet Diaries: The Stuxnet virus was made to infiltrate nuclear facilities in Iran ... until it broke free and spread around the world. Who created it, and why did it spin out of control?
 
 
