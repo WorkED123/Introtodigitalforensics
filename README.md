@@ -63,13 +63,13 @@
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0119	- Knowledge of hacking methodologies.</li><br>
-<li>K0206	- Knowledge of ethical hacking principles and techniques.	</li><br>
-<li>K0177	- Knowledge of cyber attack stages (e.g., reconnaissance, scanning, enumeration, gaining access, escalation of privileges, maintaining access, network exploitation, covering tracks).</li><br>
-<li>K0005	- Knowledge of cyber threats and vulnerabilities. </li><br>
-<li>K0009	- Knowledge of application vulnerabilities.</li><br>
-<li>K0144	- Knowledge of social dynamics of computer attackers in a global context.</li><br>
-<li>S0052	- Skill in the use of social engineering techniques. (e.g., phishing, baiting, tailgating, etc.).</li>
+<li>K0119: Knowledge of hacking methodologies.</li><br>
+<li>K0206: Knowledge of ethical hacking principles and techniques.	</li><br>
+<li>K0177: Knowledge of cyber attack stages (e.g., reconnaissance, scanning, enumeration, gaining access, escalation of privileges, maintaining access, network exploitation, covering tracks).</li><br>
+<li>K0005: Knowledge of cyber threats and vulnerabilities. </li><br>
+<li>K0009: Knowledge of application vulnerabilities.</li><br>
+<li>K0144: Knowledge of social dynamics of computer attackers in a global context.</li><br>
+<li>S0052: Skill in the use of social engineering techniques. (e.g., phishing, baiting, tailgating, etc.).</li>
 
 </ul>
 
@@ -230,8 +230,8 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 </ul>
       
 
-<ul>
-<li><h3><ins>Legal Implications of Breaching the Chain</ins></h3></li>
+
+<h3><ins>Legal Implications of Breaching the Chain</ins></h3>
 <ul>
   <li>
     
@@ -245,7 +245,7 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 </ul>
 
 
-<li><h3><ins>Digital Considerations</ins></h3></li>
+<h3><ins>Digital Considerations</ins></h3>
 <ul>
   <li>
     
@@ -265,7 +265,7 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 </ul>
 
 
-<li><h3><ins>Legal Frameworks and Standards</ins></h3></li>
+<h3><ins>Legal Frameworks and Standards</ins></h3>
 <ul>
   <li>
     
@@ -285,7 +285,7 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 
 
 
-<li><h3><ins>Real-world Consequences</ins></h3></li>
+<h3><ins>Real-world Consequences</ins></h3>
 <ul>
   <li>
     
@@ -351,12 +351,28 @@ Digital Forensics is the practice of collecting, analyzing, and preserving elect
 <h2>Conclusion</h2>
 Digital forensics is an indispensable tool in the modern digital landscape, marrying the technical with the legal, to ensure justice, protect assets, and deter cyber malfeasance. As technology evolves, so will the field of digital forensics, emphasizing the need for continuous learning and adaptation.
 
+
+<h2>Definitions</h2>
+<ul>
+<li><b>Digital Forensics:</b> The field of investigating and analyzing digital devices to uncover and preserve evidence for legal purposes.</li><br>
+<li><b>Forensic Image:</b> A bit-by-bit copy of a digital storage device, created to preserve the original data and its integrity for forensic analysis.</li><br>
+<li><b>Live Forensics:</b> The process of collecting and analyzing digital evidence from a running system, capturing volatile data such as system memory and active processes.</li><br>
+<li><b>Chain of Custody:</b> The documentation and tracking process that ensures digital evidence is properly collected, handled, and preserved to maintain its integrity for legal proceedings.</li><br>
+<li><b>FTK (Forensic Toolkit):</b> A software suite used by forensic investigators to acquire, analyze, and report on digital evidence from various types of devices.</li><br>
+<li><b>Timestamps:</b> Data embedded in files and logs that record the time and date of creation, modification, or access, used to establish timelines and track activities.</li><br>
+<li><b>Digital Evidence:</b> Any information or data stored or transmitted electronically that can be used in legal investigations and proceedings.</li><br>
+<li><b>Data Carving:</b> The technique of recovering deleted or fragmented data from digital storage by identifying and reconstructing file fragments without file system metadata.</li><br>
+<li><b>File Artifact:</b> Residual data left behind by files or programs, which can provide clues or evidence during forensic investigations.</li>
+</ul>
+
 <h2> Presentation</h2>
 
 <a href="https://docs.google.com/presentation/d/1H6JTY9SS4R4sr5MKxeTISCq-WR45d7CR/edit?usp=sharing&ouid=111353211454597807430&rtpof=true&sd=true"> Incident Response Technologies </a>
 
 
 <h2> Hands-On Labs</h2>
+
+<h2> Games </h2>
 
 <h2> Additional Resources</h2>
 
